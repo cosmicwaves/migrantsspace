@@ -1,0 +1,35 @@
+baseurl = "https://migrants.space/"
+languageCode = "tr"
+theme = "hugo-theme-terminal"
+paginate = 5
+
+[params]
+  contentTypeName = "post"
+  themeColor = "orange"
+  showMenuItems = 3
+  fullWidthTheme = true
+  centerTheme = false
+
+[languages]
+  [languages.en]
+    title = "migrants'.space"
+    subtitle = "Göç çalışmaları, R programlama dili ve veri analizlerim için"
+    keywords = "R, migration studies, migrants, refugees, asylum, data analysis, göç, göç çalışmaları, mülteci, veri analizi"
+    copyright = ""
+    menuMore = "Daha fazla göster"
+    readMore = "Daha fazla göster"
+    readOtherPosts = "Diğer yazılara göz at"
+
+    [languages.en.params.logo]
+      logoText = "migrants'space"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "hakkımda"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "yazılar"
+        url = "/showcase"
